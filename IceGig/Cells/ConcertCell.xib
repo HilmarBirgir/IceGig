@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="ConcertCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ggl-EL-W44">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="119.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="gCn-uv-OC0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Björgvin Halldórsson Björgvin Halldórsson" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTQ-KC-Hae">
+                        <rect key="frame" x="128" y="8" width="184" height="23.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Græni Hatturinn (Akureyri)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsB-1H-9xk">
+                        <rect key="frame" x="128" y="33.5" width="184" height="18"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 21. 2017" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZa-Q8-vGu">
+                        <rect key="frame" x="128" y="53.5" width="184" height="18"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="IZa-Q8-vGu" secondAttribute="trailing" constant="8" id="0WM-CK-xce"/>
+                    <constraint firstItem="gsB-1H-9xk" firstAttribute="leading" secondItem="Ggl-EL-W44" secondAttribute="trailing" constant="8" id="5D1-uK-Avo"/>
+                    <constraint firstItem="Ggl-EL-W44" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="D4a-9B-bkr"/>
+                    <constraint firstAttribute="bottom" secondItem="Ggl-EL-W44" secondAttribute="bottom" id="P0z-Ty-W5m"/>
+                    <constraint firstItem="yTQ-KC-Hae" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Pag-wP-40e"/>
+                    <constraint firstItem="IZa-Q8-vGu" firstAttribute="top" secondItem="gsB-1H-9xk" secondAttribute="bottom" constant="2" id="Qh0-wn-DwV"/>
+                    <constraint firstItem="gsB-1H-9xk" firstAttribute="top" secondItem="yTQ-KC-Hae" secondAttribute="bottom" constant="2" id="T3u-WX-djj"/>
+                    <constraint firstItem="IZa-Q8-vGu" firstAttribute="leading" secondItem="Ggl-EL-W44" secondAttribute="trailing" constant="8" id="WY0-L5-FyW"/>
+                    <constraint firstAttribute="trailing" secondItem="yTQ-KC-Hae" secondAttribute="trailing" constant="8" id="bgQ-jx-cSp"/>
+                    <constraint firstItem="Ggl-EL-W44" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dja-BI-OyS"/>
+                    <constraint firstItem="yTQ-KC-Hae" firstAttribute="leading" secondItem="Ggl-EL-W44" secondAttribute="trailing" constant="8" id="nm4-42-cyd"/>
+                    <constraint firstAttribute="trailing" secondItem="gsB-1H-9xk" secondAttribute="trailing" constant="8" id="vhU-5r-fHD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="concertImageView" destination="Ggl-EL-W44" id="4gE-UV-M0w"/>
+                <outlet property="dateLabel" destination="IZa-Q8-vGu" id="aC8-fx-jeF"/>
+                <outlet property="nameLabel" destination="yTQ-KC-Hae" id="CeO-QJ-fYO"/>
+                <outlet property="venueLabel" destination="gsB-1H-9xk" id="RZZ-dg-xXy"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="158"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1 @@
+../../../../Spotify-ios-sdk/SpotifyMetadata.framework/Headers/SPTTrack.h

@@ -1,0 +1,21 @@
+//
+//  ErrorMessages.h
+//  IceGig
+//
+//  Created by Hilmar Birgir Ólafsson on 16/03/2017.
+//  Copyright © 2017 Hilmar Birgir Ólafsson. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#pragma once
+
+FOUNDATION_EXPORT NSString *const PLAYBACK_FAILED_TO_SETUP_ERROR;
+FOUNDATION_EXPORT NSString *const LOGIN_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const ARTIST_DOWNLOAD_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const CONCERT_DOWNLOAD_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const SONG_DOWNLOAD_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const PLAY_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const STOP_FAILED_ERROR;
+FOUNDATION_EXPORT NSString *const NO_ARTIST_FOUND_ERROR;
+FOUNDATION_EXPORT NSString *const NO_CONCERTS_FOUND_ERROR;

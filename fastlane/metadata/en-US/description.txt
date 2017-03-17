@@ -1,0 +1,2 @@
+See a list of upcoming concerts in Iceland. Then discover the artist playing using your Spotify account.
+Code is available at https://github.com/HilmarBirgir/IceGig

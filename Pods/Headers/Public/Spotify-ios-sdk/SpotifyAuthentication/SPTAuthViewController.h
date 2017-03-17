@@ -1,0 +1,1 @@
+../../../../Spotify-ios-sdk/SpotifyAuthentication.framework/Headers/SPTAuthViewController.h
