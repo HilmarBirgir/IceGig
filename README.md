@@ -84,7 +84,7 @@ Possible improvements
 ----------
 * The playback experience can be a lot better. Would be nice to have a scrubber and the capability to pause. Also it would be nice to be able to minimise the app while playing.
 * Threading, currently networking code and cell view model allocation is run on the main thread. Would be more optimized to move that onto an offthread.
-* The titles of
+* The concert data is missing an artist name field so we search spotify from the concert title. That can sometimes include things like venue which screws up the search query. It would be great if the API would return a field with just the artists name. 
 
 Credits
 ----------
