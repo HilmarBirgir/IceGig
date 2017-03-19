@@ -83,6 +83,8 @@ A PlayerViewController with PlayerViewModel
 Possible improvements
 ----------
 * The playback experience can be a lot better. Would be nice to have a scrubber and the capability to pause. Also it would be nice to be able to minimise the app while playing.
+* Threading, currently networking code and cell view model allocation is run on the main thread. Would be more optimized to move that onto an offthread.
+* The titles of
 
 Credits
 ----------

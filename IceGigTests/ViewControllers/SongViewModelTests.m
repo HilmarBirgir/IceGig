@@ -62,7 +62,7 @@
     NSDictionary *data = @{@"tracks": @[[self sampleSongData], [self sampleSongData], [self sampleSongData]]};
     
     [dataSignal sendNext:data];
-    
+        
     XCTAssertEqual([self.viewModel.cellViewModels count], 3);
     
     SongCellViewModel *firstViewModel = (SongCellViewModel *)self.viewModel.cellViewModels[0];
