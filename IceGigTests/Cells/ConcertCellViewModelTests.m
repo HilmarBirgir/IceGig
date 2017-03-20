@@ -21,10 +21,21 @@
 - (void)setUp
 {
     [super setUp];
- 
+    
+    // We set GMT for this test so we can verify the date string
+    
+    [NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT"]];
+    
     Concert *concert = [self sampleConcert];
     
     self.viewModel = [[ConcertCellViewModel alloc] initWithConcert:concert];
+}
+
+- (void)tearDown
+{
+    [super tearDown];
+    
+    [NSTimeZone resetSystemTimeZone];
 }
 
 - (void)test_name_gets_correctly_set
